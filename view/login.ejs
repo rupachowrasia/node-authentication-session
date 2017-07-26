@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Auth | Login</title>
+</head>
+<body>
+<h1>Login Here</h1>
+<form method="post" action="/login">
+	<input type="hidden" name="_csrf" value="<%=csrfToken%>">
+	<input type="text" name="email">
+	<input type="password" name="password">
+	<input type="submit" name="submit" value="Login">
+</form>
+<hr>
+New User <a href="/register"> Register here </a>
+</body>
+</html>
