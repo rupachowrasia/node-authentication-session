@@ -44,7 +44,7 @@ It requires [Node.js](https://nodejs.org/) v7+ to run.
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-$ cd basicAuth
+$ cd node-authentication-session
 $ npm install
 $ npm start
 ```
