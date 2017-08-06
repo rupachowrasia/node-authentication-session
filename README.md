@@ -10,7 +10,7 @@ NodeJs Basic auth which covers brief introduction of the following:
   - express-session [to manage session]
   - csurf [to manage csrf token]
 
-# New Features!
+# New Features
 
   - Hashing password using bcryptjs
   - Using session middleware
